@@ -8,6 +8,6 @@ require_once("model-authors.php);
 $pageTitle="Authors";
 include "view-header.php";
 $authors = selectAuthors();
-include "view-Authorss.php";
+include "view-Authors.php";
 include "view-footer.php";
 ?>
