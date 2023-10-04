@@ -5,7 +5,7 @@ require_once("model-authors.php);
 
 
 
-$pageTitle="Authors";
+$pageTitle= "Authors";
 include "view-header.php";
 $authors = selectAuthors();
 include "view-authors.php";
